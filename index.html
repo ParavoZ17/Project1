@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/37ccb9ec0c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    
+    <header class="navbar">
+        <div class="nav">
+            <a href="./index.html"><img src="./images/SVG/Logo.svg" alt="logo"/></a>
+        <form class="navForm">
+            <i class="fa-solid fa-magnifying-glass eventFa"></i>
+            <input type="text" placeholder="Search events" class="event" name="event">
+            <input type="text" class="region" name="region">
+            <button class="searchRegion"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        </div>
+        
+        
+        <div class="control-buttons">
+            <button type="button" class="language"><i class="fa-solid fa-globe"></i>English</button>
+            <button class="login">Log in</button>
+            <button class="signUp">Sign up</button>
+        </div>   
+    </header>
+    <main></main>
+    <footer></footer>
 </body>
 <script src="./scripts/script.js"></script>
 </html>
