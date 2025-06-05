@@ -1,0 +1,75 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.navbar {
+    padding: 11px 24px 11px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navForm{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input {
+        border: solid #D9D9D9 1px;
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+    .event {
+        width: 300px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    .eventFa{
+        position: absolute;
+        left: 10px;
+        color: #a5a5a5 ;
+    }
+    .region{
+       width: 254px;
+    }
+    .searchRegion {
+        padding: 12px;
+        background-color: #F65858;
+        color: white;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+   
+}
+
+.control-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: transparent;
+    
+
+    button {
+        height: 100%;
+        padding: 8px 16px;
+        border-radius: 15px;
+        
+    }
+    .language{
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        align-items: center;
+        padding: 8px 16px;
+    }
+  
+    button:hover {
+        color:#FFFFFF;
+        background-color:#00798A;
+    }
+}

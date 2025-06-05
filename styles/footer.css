@@ -1,0 +1,89 @@
+footer {
+   width: 100%;
+    padding: 15px 162px 56px 162px;
+    background-color: #212121;
+    color: #F6F7F8;
+    h2{
+        font-size: 16px;
+    }
+    a{
+            font-size: 14px;
+            color: #C5C4C4;}
+}
+
+.getStarted{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 35px;
+    border-bottom: #707070 solid 1px;
+    padding: 8px 0 25px 0;
+    margin-bottom: 24px;
+    
+    
+    .bnt_getStarted{
+        color: #F6F7F8;
+        border: #F6F7F8 solid 2px;
+        border-radius: 5px;
+        font-size: 16px;
+        padding: 10px 14px 10px 14px;
+    }
+}
+
+.sozialMedia{
+margin-bottom: 24px;
+}
+
+.footerNavigation {
+
+    display: flex;
+    justify-content: start;
+    padding-bottom: 12px;
+    
+    
+        div{
+            width: calc(100%/3);
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+        }
+        
+
+}
+
+.sozialMedia{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+        margin-bottom: 12px;
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+    .download-buttons{
+        display: flex;
+        gap: 12px;
+    }
+}
+
+.legal{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 24px;
+    .meetup{
+        color:#F6F7F8;
+    }
+}
+
+ 
