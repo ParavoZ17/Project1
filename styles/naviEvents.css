@@ -1,0 +1,57 @@
+.eventsnear {
+  margin-bottom: 40px;
+}
+.naviEvents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a {
+    color: #00798a;
+    background-color: rgba(142, 201, 208, 0.2);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  button {
+    color: #00798a;
+  }
+}
+
+.eventsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px;
+  li {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: calc((100% - 108px) / 4);
+    h3 {
+      font-size: 20px;
+      font-weight: 500;
+    }
+    div {
+      display: flex;
+      gap: 15px;
+    }
+    i {
+      margin-right: 6px;
+    }
+    .eventType {
+      font-size: 14px;
+      color: #707070;
+    }
+    .eventDate {
+      font-size: 14px;
+    }
+  }
+}
