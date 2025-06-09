@@ -1,0 +1,23 @@
+.joinMeetUp_section {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(142, 201, 208, 0.2);
+  padding: 20px 56px;
+}
+
+.joinMeetUp_container{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 16px;
+    p{
+        max-width: 664px;
+    }
+    a{
+        color: white;
+        background-color: #E32359;
+        padding: 8px 66px;
+        max-width: 192px;
+        border-radius: 8px;
+    }
+}

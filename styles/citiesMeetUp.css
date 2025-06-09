@@ -13,12 +13,12 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 64px;
-    li{
-        text-align: center;
-        
-        img{
-            margin-bottom: 24px;
-        }
+    li {
+      text-align: center;
+
+      img {
+        margin-bottom: 24px;
+      }
     }
   }
 }

@@ -11,8 +11,7 @@ const eventsStore = [
     distance: 50,
   },
   {
-    title:
-      'NYC AI Users - AI Tech Talks, Demo & Social: RAG Search and Customer Experience',
+    title: 'NYC AI Users - AI Tech Talks, Demo & Social: RAG Search and Customer Experience',
     description: 'New York AI Users',
     date: new Date(2024, 2, 23, 11, 30),
     image:

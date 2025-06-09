@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script
-      src="https://kit.fontawesome.com/37ccb9ec0c.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/37ccb9ec0c.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,6 +18,8 @@
     <link rel="stylesheet" href="./styles/stories.css" />
     <link rel="stylesheet" href="./styles/howMeetUpWorks.css" />
     <link rel="stylesheet" href="./styles/citiesMeetUp.css" />
+    <link rel="stylesheet" href="./styles/explorTopCategories.css" />
+    <link rel="stylesheet" href="./styles/joinMeetUp.css"></link>
   </head>
   <body>
     <header class="navbar">
@@ -30,27 +29,15 @@
         </a>
         <form class="navForm">
           <i class="fa-solid fa-magnifying-glass eventFa"></i>
-          <input
-            type="text"
-            placeholder="Search events"
-            class="event"
-            name="event"
-          />
-          <input
-            type="text"
-            class="region"
-            name="region"
-            value="Mountain View, CA"
-          />
+          <input type="text" placeholder="Search events" class="event" name="event" />
+          <input type="text" class="region" name="region" value="Mountain View, CA" />
           <button class="searchRegion">
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
         </form>
       </div>
       <div class="control-buttons">
-        <button type="button" class="language">
-          <i class="fa-solid fa-globe"></i>English
-        </button>
+        <button type="button" class="language"><i class="fa-solid fa-globe"></i>English</button>
         <button class="login">Log in</button>
         <button class="signUp">Sign up</button>
       </div>
@@ -60,43 +47,111 @@
         <div class="hero_container">
           <h1>The people platform—Where interests become friendships</h1>
           <p>
-            Whatever your interest, from hiking and reading to networking and
-            skill sharing,there are thousands of people who share it on Meetup.
-            Events are happeningevery day—sign up to join the fun.
+            Whatever your interest, from hiking and reading to networking and skill sharing,there are thousands of
+            people who share it on Meetup. Events are happeningevery day—sign up to join the fun.
           </p>
           <a href="./">Join Meetup</a>
         </div>
-        <img src="./images/SVG/irl_event.svg.svg" alt="hero img" />
+        <img src="./images/SVG/irl_event.svg" alt="hero img" />
       </section>
-          <section class="container citiesMeetUp">
-      <h2>Popular cities on Meetup</h2>
-      <p>
-        Looking for fun things to do near you? See what Meetup organizers are
-        planning in cities around the country.
-      </p>
-      <ul>
-        <li>
-          <img src="./images/new_york.png" alt="New York" />
-          <h3>New York</h3>
-        </li>
-        <li>
-          <img src="./images/san_francisco.png" alt="San Francisco" />
-          <h3>San Francisco</h3>
-        </li>
-        <li>
-          <img src="./images/chicago.png" alt="Chicago" />
-          <h3>Chicago</h3>
-        </li>
-        <li>
-          <img src="./images/nashville.png" alt="Nashville" />
-          <h3>Nashville</h3>
-        </li>
-        <li>
-          <img src="./images/miami.png" alt="Miami" />
-          <h3>Miami</h3>
-        </li>
-      </ul>
-    </section>
+      <section class="container">
+        <div class="joinMeetUp_section">
+        <div class="joinMeetUp_container">
+          <h2>Join Meetup</h2>
+          <p>
+            People use Meetup to meet new people, learn new things, find support, get out of their comfort zones, and
+            pursue their passions, together. Membership is free.
+          </p>
+          <a href="./">Sign up</a>
+        </div>
+        <img src="./images/joinMeetUp.png" alt="joinMeetUp" />
+        </div>
+      </section>
+      <section class="explorTopCategories container">
+        <h2>Explore top categories</h2>
+        <ul>
+          <li>
+            <img src="./images/SVG/travel_and_outdoor.svg" alt="Travel and Outdoor" />
+            <h4>Travel and Outdoor</h4>
+          </li>
+          <li>
+            <img
+              src="./images/SVG/social_activities.svg"
+              alt="Social
+Activities"
+            />
+            <h4>Social Activities</h4>
+          </li>
+          <li>
+            <img
+              src="./images/SVG/hobbies_and_passions.svg"
+              alt="Hobbies and
+Passions"
+            />
+            <h4>Hobbies and Passions</h4>
+          </li>
+          <li>
+            <img
+              src="./images/SVG/sports_and_fitness.svg"
+              alt="Sports and
+Fitness"
+            />
+            <h4>Sports and Fitness</h4>
+          </li>
+          <li>
+            <img
+              src="./images/SVG/health_and_wellness.svg"
+              alt="Health and
+Wellbeing"
+            />
+            <h4>Health and Wellbeing</h4>
+          </li>
+          <li>
+            <img src="./images/SVG/technology.svg" alt="Technology" />
+            <h4>Technology</h4>
+          </li>
+          <li>
+            <img
+              src="./images/SVG/art_and_culture.svg"
+              alt="Art and
+Culture"
+            />
+            <h4>Art and Culture</h4>
+          </li>
+          <li>
+            <img src="./images/SVG/games.svg" alt="Games" />
+            <h4>Games</h4>
+          </li>
+        </ul>
+      </section>
+      <section class="container citiesMeetUp">
+        <h2>Popular cities on Meetup</h2>
+        <p>
+          Looking for fun things to do near you? See what Meetup organizers are planning in cities around the country.
+        </p>
+        <ul>
+          <li>
+            <img src="./images/new_york.png" alt="New York" />
+            <h3>New York</h3>
+          </li>
+          <li>
+            <img src="./images/san_francisco.png" alt="San Francisco" />
+            <h3>San Francisco</h3>
+          </li>
+          <li>
+            <img src="./images/chicago.png" alt="Chicago" />
+            <h3>Chicago</h3>
+          </li>
+          <li>
+            <img src="./images/nashville.png" alt="Nashville" />
+            <h3>Nashville</h3>
+          </li>
+          <li>
+            <img src="./images/miami.png" alt="Miami" />
+            <h3>Miami</h3>
+          </li>
+        </ul>
+      </section>
       <section class="container">
         <h2 class="howMeetUpWorks_h2">How Meetup works</h2>
         <div class="howMeetUpWorks">
@@ -112,10 +167,7 @@
             <i class="fa-regular fa-plus"></i>
             <div>
               <h3 class="howMeetUpWorks_h3">Start a group to host events</h3>
-              <p>
-                Create your own Meetup group, and draw from a community of
-                millions
-              </p>
+              <p>Create your own Meetup group, and draw from a community of millions</p>
               <button>Start a group</button>
             </div>
           </div>
@@ -125,9 +177,8 @@
         <div class="meetUpStories">
           <h2>Friendships are made on Meetup</h2>
           <p class="lastP">
-            Since 2002, members have used Meetup to make new friends, meet
-            like-minded people, spend time on hobbies, and connect with locals
-            over shared interests. Learn how.
+            Since 2002, members have used Meetup to make new friends, meet like-minded people, spend time on hobbies,
+            and connect with locals over shared interests. Learn how.
           </p>
 
           <ul class="storyList">
@@ -135,10 +186,8 @@
               <img src="./images/first_article.jpg" alt="first_article" />
               <h3>I Used Meetup to Make Friends at Brunch</h3>
               <p>
-                New Jersey-based writer and college student Brianna Stryker
-                wanted to meet friends in her hometown. Learn how she used
-                Meetup to make connections by joining a Girls Night Out Meetup
-                group.
+                New Jersey-based writer and college student Brianna Stryker wanted to meet friends in her hometown.
+                Learn how she used Meetup to make connections by joining a Girls Night Out Meetup group.
               </p>
               <button>Read more</button>
             </li>
@@ -146,9 +195,8 @@
               <img src="./images/second_article.jpg" alt="second_article" />
               <h3>How to Turn Casual Connections into Close Friendships</h3>
               <p>
-                Studies from around the world have tried to help people answer
-                this question. Learn about the three tiers of friendship and how
-                to fulfill them.
+                Studies from around the world have tried to help people answer this question. Learn about the three
+                tiers of friendship and how to fulfill them.
               </p>
               <button>Read more</button>
             </li>
@@ -156,9 +204,8 @@
               <img src="./images/third_article.jpg" alt="third_article" />
               <h3>Do You Have the “Right” Number of Friends?</h3>
               <p>
-                It’s proven that close friendships are harder to make as an
-                adult. But don’t sweat it: here’s what you can do to simplify
-                the process.
+                It’s proven that close friendships are harder to make as an adult. But don’t sweat it: here’s what you
+                can do to simplify the process.
               </p>
               <button>Read more</button>
             </li>
@@ -217,48 +264,28 @@
           <h2>Follow us</h2>
           <ul>
             <li>
-              <a href="https://www.facebook.com/"
-                ><img src="./images/SVG/Facebook.svg" alt="Facebook"
-              /></a>
+              <a href="https://www.facebook.com/"><img src="./images/SVG/Facebook.svg" alt="Facebook" /></a>
             </li>
             <li>
-              <a href="https://x.com/"
-                ><img src="./images/SVG/Twitter.svg" alt="Twitter"
-              /></a>
+              <a href="https://x.com/"><img src="./images/SVG/Twitter.svg" alt="Twitter" /></a>
             </li>
             <li>
-              <a href="https://www.youtube.com/"
-                ><img src="./images/SVG/YouTube.svg" alt="YouTube"
-              /></a>
+              <a href="https://www.youtube.com/"><img src="./images/SVG/YouTube.svg" alt="YouTube" /></a>
             </li>
             <li>
-              <a href="https://www.instagram.com/"
-                ><img src="./images/SVG/Instagram.svg" alt="Instagram"
-              /></a>
+              <a href="https://www.instagram.com/"><img src="./images/SVG/Instagram.svg" alt="Instagram" /></a>
             </li>
             <li>
-              <a href="https://www.tiktok.com/"
-                ><img src="./images/SVG/TikTok.svg" alt="TikTok"
-              /></a>
+              <a href="https://www.tiktok.com/"><img src="./images/SVG/TikTok.svg" alt="TikTok" /></a>
             </li>
           </ul>
         </div>
         <div class="download-buttons">
           <a href="https://play.google.com/" target="_blank">
-            <img
-              src="./images/SVG/Google.svg"
-              alt="Get it on Google Play"
-              height="40"
-              width="140"
-            />
+            <img src="./images/SVG/Google.svg" alt="Get it on Google Play" height="40" width="140" />
           </a>
           <a href="https://apps.apple.com" target="_blank">
-            <img
-              src="./images/SVG/AppStore.svg"
-              alt="Download on the App Store"
-              height="40"
-              width="140"
-            />
+            <img src="./images/SVG/AppStore.svg" alt="Download on the App Store" height="40" width="140" />
           </a>
         </div>
       </div>

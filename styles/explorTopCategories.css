@@ -1,0 +1,26 @@
+.explorTopCategories {
+  h2 {
+    margin-bottom: 24px;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+    align-items: stretch;
+    li {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 6px;
+      width: calc((100% - 116px) / 8);
+      min-width: 135px;
+      padding: 16px;
+      text-align: center;
+      background-color: rgba(142, 201, 208, 0.2);
+    }
+  }
+}
