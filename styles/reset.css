@@ -1,31 +1,33 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-ul, ol {
-    list-style: none;
+ul,
+ol {
+  list-style: none;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    margin: 0 auto;
-    max-width: 1520px;
-    width: 100%;
-    color: #212121;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  max-width: 1520px;
+  width: 100%;
+  color: #212121;
 }
 
 button {
-    cursor: pointer;
-   background-color: transparent;
-   border: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
 }
 
 .container {
-    padding: 0 158px;
+  padding: 0 158px;
+  max-width: 1512px;
 }

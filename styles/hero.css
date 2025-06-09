@@ -1,28 +1,27 @@
-
-
 .hero {
-    display: flex;
-    align-items: center;
-    gap: 54px;
-    padding-top: 98px;
-    padding-bottom: 98px;
-    line-height: 24px;
-    h1{
-        font-size: 40px;
-        line-height: 52px;
-        font-weight: 700;
-    }
+  display: flex;
+  align-items: center;
+  gap: 54px;
+  padding-top: 98px;
+  padding-bottom: 98px;
+  line-height: 24px;
+  h1 {
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 700;
+  }
 
-    .hero_container{
-        display: flex;
-        flex-direction: column;
-        gap: 24px;
-        width: calc(100%/2);
-        a{  width: 125px;
-            border-radius: 15px;
-            padding: 8px 16px 8px 16px;
-            background-color: #00798A;
-            color: #fff;
-        }
+  .hero_container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: calc(100% / 2);
+    a {
+      width: 125px;
+      border-radius: 15px;
+      padding: 8px 16px 8px 16px;
+      background-color: #00798a;
+      color: #fff;
     }
+  }
 }
