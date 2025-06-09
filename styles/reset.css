@@ -31,3 +31,9 @@ button {
   padding: 0 158px;
   max-width: 1512px;
 }
+
+h2 {
+  font-size: 28px;
+  font-weight: 600px;
+  line-height: 36px;
+}

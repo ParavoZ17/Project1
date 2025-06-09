@@ -1,0 +1,24 @@
+.citiesMeetUp {
+  h2 {
+    margin-bottom: 16px;
+  }
+  p {
+    color: #707070;
+    margin-bottom: 28px;
+  }
+  ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+    li{
+        text-align: center;
+        
+        img{
+            margin-bottom: 24px;
+        }
+    }
+  }
+}
