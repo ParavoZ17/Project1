@@ -31,6 +31,7 @@
   flex-wrap: wrap;
   gap: 36px;
   li {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -52,6 +53,11 @@
     }
     .eventDate {
       font-size: 14px;
+    }
+    .onlineEvent{
+        position: absolute;
+        top: 24px;
+        left: 24px;
     }
   }
 }
