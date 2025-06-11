@@ -54,10 +54,10 @@
     .eventDate {
       font-size: 14px;
     }
-    .onlineEvent{
-        position: absolute;
-        top: 24px;
-        left: 24px;
+    .onlineEvent {
+      position: absolute;
+      top: 24px;
+      left: 24px;
     }
   }
 }

@@ -23,5 +23,8 @@
       background-color: #00798a;
       color: #fff;
     }
+    a:hover {
+      background-color: #f65858;
+    }
   }
 }

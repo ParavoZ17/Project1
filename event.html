@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://kit.fontawesome.com/37ccb9ec0c.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,8 +14,9 @@
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/eventPage.css" />
+  </head>
+  <body>
     <header class="navbar">
       <div class="nav">
         <a href="./index.html">
@@ -36,7 +37,72 @@
         <button class="signUp">Sign up</button>
       </div>
     </header>
-    <main></main>
+    <main>
+      <main>
+  <section class="eventInNewYork container">
+    <div class="filterBlock">
+      <h3 class="filterBlockThema">Events near New York, NY</h3>
+      <p class="filterBlockParagrapth">Events</p>
+      <form>
+        <div class="selectList">
+          <div class="selectWrapper">
+            <select class="mySelect">
+              <option>Any date</option>
+              <option value="2024-03-23">2024-03-23</option>
+              <option value="2024-03-16">2024-03-16</option>
+              <option value="2024-03-13">2024-03-13</option>
+              <option value="2024-03-14">2024-03-14</option>
+            </select>
+          </div>
+          <div class="selectWrapper">
+            <select class="mySelect">
+              <option>Any type</option>
+              <option value="online">online</option>
+              <option value="offline">offline</option>
+            </select>
+          </div>
+          <div class="selectWrapper">
+            <select class="mySelect">
+              <option>Any distance</option>
+              <option value="50">50</option>
+              <option value="25">25</option>
+              <option value="10">10</option>
+              <option value="100">100</option>
+            </select>
+          </div>
+          <div class="selectWrapper">
+            <select class="mySelect">
+              <option>Any category</option>
+              <option value="Hobbies and Passions">Hobbies and Passions</option>
+              <option value="Technology">Technology</option>
+              <option value="Business">Business</option>
+              <option value="Social Activities">Social Activities</option>
+              <option value="Health and Wellbeing">Health and Wellbeing</option>
+            </select>
+          </div>
+        </div>
+      </form>
+      <ul class="filtredEvents eventsList"></ul>
+    </div>
+    <div class="location">
+      <p>Find events near</p>
+      <h3>New York, NY</h3>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d261293.19917865578!2d-74.22064303597777!3d40.68672769180143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z0J3RjNGOLdCZ0L7RgNC6LCDQodCo0JA!5e0!3m2!1sru!2sde!4v1749577654363!5m2!1sru!2sde"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+    </main>
     <footer>
       <div class="getStarted">
         <h2>Create your own Meetup group.</h2>
@@ -122,5 +188,6 @@
         <li><a href="./">Help</a></li>
       </ul>
     </footer>
-</body>
+  </body>
+  <script src="./scripts/script.js" type="module"></script>
 </html>
