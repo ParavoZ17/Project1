@@ -38,9 +38,7 @@ function createEventList(data) {
   data.forEach((event) => {
     const item = document.createElement('li');
 
-    const attendeesHTML = event.attendees
-      ? `<p class="eventAttendees">${event.attendees} attendees</p>`
-      : '';
+    const attendeesHTML = event.attendees ? `<p class="eventAttendees">${event.attendees} attendees</p>` : '';
 
     item.innerHTML = `
       <img src="${event.image}" alt="${event.description}">

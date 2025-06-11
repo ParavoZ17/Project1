@@ -23,47 +23,46 @@
     height: 3px;
     width: 100%;
     background-color: #00798a;
-    
   }
 }
 
 form {
-    margin-bottom: 64px;
-    .selectList {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-}
+  margin-bottom: 64px;
+  .selectList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
 
-.selectWrapper {
-  position: relative;
-  max-width: 170px; 
-}
+  .selectWrapper {
+    position: relative;
+    max-width: 170px;
+  }
 
-.mySelect {
-  font-size: 14px;
-  border: none;
-  background-color: #F6F7F8;
-  padding: 16px;
-  padding-right: 40px; 
-  border-radius: 40px;
-  width: 100%;
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  cursor: pointer;
-}
+  .mySelect {
+    font-size: 14px;
+    border: none;
+    background-color: #f6f7f8;
+    padding: 16px;
+    padding-right: 40px;
+    border-radius: 40px;
+    width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+  }
 
-.selectWrapper::after {
-  content: "▼";
-  font-size: 12px;
-  position: absolute;
-  top: 50%;
-  right: 16px;
-  transform: translateY(-50%);
-  pointer-events: none;
-  color: #555;
-}
+  .selectWrapper::after {
+    content: '▼';
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #555;
+  }
 }
 
 .filtredEvents {
@@ -76,8 +75,8 @@ form {
     img {
       width: 160px;
       max-height: 90px;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;    
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
     }
     div {
       display: flex;
