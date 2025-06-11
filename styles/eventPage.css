@@ -1,3 +1,6 @@
+.navbar{
+  margin-bottom: 64px;
+}
 .eventInNewYork {
   display: flex;
   justify-content: space-between;
@@ -26,7 +29,7 @@
   }
 }
 
-form {
+.formEvents  {
   margin-bottom: 64px;
   .selectList {
     display: flex;
