@@ -48,6 +48,12 @@
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
   }
+   button:hover{
+    background-color: #00798a;
+    transform: translateY(-4px) scale(1.02);
+     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  
+  }
 }
 
 .control-buttons {
@@ -75,7 +81,10 @@
   button:hover {
     color: #ffffff;
     background-color: #00798a;
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   }
+ 
 }
 
 

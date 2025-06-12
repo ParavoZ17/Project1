@@ -1,117 +1,4 @@
-/* .eventsnear {
-  margin-bottom: 40px;
-}
-.naviEvents {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 24px;
-  div {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-  }
 
-  a {
-    color: #00798a;
-    background-color: rgba(142, 201, 208, 0.2);
-    font-size: 20px;
-    font-weight: 500;
-    padding: 10px;
-    border-radius: 8px;
-  }
-  button {
-    color: #00798a;
-  }
-}
-
-.eventsListMain {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 36px;
-  li {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    width: calc((100% - 108px) / 4);
-    h3 {
-      font-size: 20px;
-      font-weight: 500;
-    }
-    div {
-      display: flex;
-      gap: 15px;
-    }
-    i {
-      margin-right: 6px;
-    }
-    .eventType {
-      font-size: 14px;
-      color: #707070;
-    }
-    .eventDate {
-      font-size: 14px;
-    }
-    .onlineEvent {
-      position: absolute;
-      top: 24px;
-      left: 24px;
-    }
-  }
-} */
-
-/* 
-
-
-  @media (max-width: 950px) {
-.eventsListMain {
-  gap: 25px;
-  li {
-    width: calc((100% - 50px) / 2);
-
-  }
-}
-
-  }
-
-  @media (max-width: 600px) {
-.eventsListMain {
- flex-direction: column;
-  li {
-   
-    flex-direction: row;
-    
-    h3 {
-      font-size: 20px;
-      font-weight: 500;
-    }
-    div {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-    }
-    i {
-      margin-right: 6px;
-    }
-    .eventType {
-      font-size: 14px;
-      color: #707070;
-    }
-    .eventDate {
-      font-size: 14px;
-    }
-    .onlineEvent {
-      position: absolute;
-      top: 24px;
-      left: 24px;
-    }
-  }
-}
-   
- }
- */
 .eventsnear {
   margin-bottom: 40px;}
 
@@ -138,18 +25,27 @@
   button {
     color: #00798a;
   }
+  a:hover{
+    transform: translateY(-4px) scale(1.02);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
 }
 
   .eventsListMain {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+
+   
+    
     li {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 12px;
   width: calc((100% - 108px) / 4);
+  overflow: hidden;
+  transition: all 0.2s ease;
 
   img {
     width: 100%;
@@ -197,7 +93,13 @@
     padding: 5px;
     border-radius: 8px;
   }
-}}
+}
+ li:hover{
+      transform: translateY(-4px) scale(1.02);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      padding: 1px;
+      border-radius: 25px;
+    }}
 
 
 

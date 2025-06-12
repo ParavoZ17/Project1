@@ -6,6 +6,7 @@
 
 a {
   text-decoration: none;
+  transition: all 0.2s ease;
 }
 
 ul,
@@ -26,6 +27,8 @@ button {
   cursor: pointer;
   background-color: transparent;
   border: none;
+  transition: all 0.2s ease;
+  
 }
 
 .container {

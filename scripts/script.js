@@ -29,6 +29,19 @@ form.addEventListener('change', () => {
   createEventList(filtered);
 });
 
+const selects = document.querySelectorAll('.mySelect');
+
+selects.forEach(select => {
+  select.addEventListener('change', () => {
+    if (select.value.startsWith('Any')) {
+      select.classList.remove('selected');
+    } else {
+      select.classList.add('selected');
+    }
+  });
+});
+
+
 function createEventList(data) {
   container.innerHTML = '';
 

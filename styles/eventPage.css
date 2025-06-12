@@ -40,6 +40,11 @@
   .selectWrapper {
     position: relative;
     max-width: 170px;
+    .mySelect:hover, .mySelect:focus {
+      background-color:#f65858;
+      color: #f6f7f8;
+    }
+    
   }
 
   .mySelect {
@@ -123,6 +128,22 @@
   }
 }
 
+.mySelect {
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.mySelect:hover,
+.mySelect:focus {
+  background-color: #f65858;
+  color: #f6f7f8;
+}
+
+.mySelect.selected {
+  background-color: #f65858;
+  color: #f6f7f8;
+}
 
 @media ( max-width: 1000px){
 .eventInNewYork{

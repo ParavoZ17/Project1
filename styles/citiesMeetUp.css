@@ -15,10 +15,15 @@
     margin-bottom: 64px;
     li {
       text-align: center;
-
+      transition: all 0.2s easy;
       img {
         margin-bottom: 24px;
       }
+    }
+    li:hover{
+       transform: translateY(-4px) scale(1.02);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      border-radius: 15px;
     }
   }
 }

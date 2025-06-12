@@ -9,6 +9,8 @@ footer {
   a {
     font-size: 14px;
     color: #c5c4c4;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s, padding 0.3s;
   }
 }
 
@@ -27,6 +29,7 @@ footer {
     border-radius: 5px;
     font-size: 16px;
     padding: 10px 14px 10px 14px;
+    transition: background-color 0.3s;
   }
 }
 
@@ -68,7 +71,10 @@ footer {
     gap: 12px;
   }
 }
-
+.sozialMediaLinks li{
+  border-radius: 25px;
+transition: background-color 0.3s, color 0.3s, padding 0.3s;
+}
 .legal {
   display: flex;
   justify-content: start;
@@ -78,7 +84,25 @@ footer {
     color: #f6f7f8;
   }
 }
-
+footer{
+  button:hover{
+    background-color: #00798a;
+  }
+  .sozialMediaLinks li:hover{
+    a:hover{
+      background-color: transparent;
+      padding: 0;
+    }
+    background-color: #00798a;
+    color: #f6f7f8;
+    padding: 5px;
+  }
+  a:hover {
+    background-color: #00798a;
+    color: #f6f7f8;
+    padding: 3px;
+  }
+}
 
 
 @media (max-width: 950px) {
