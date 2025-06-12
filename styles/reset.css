@@ -22,6 +22,7 @@ body {
 }
 
 button {
+  font-family: 'Roboto', sans-serif;
   cursor: pointer;
   background-color: transparent;
   border: none;
@@ -37,3 +38,26 @@ h2 {
   font-weight: 600px;
   line-height: 36px;
 }
+
+@media (max-width: 1200px) {
+  .container {
+    
+    width: 100%;
+    padding: 0 40px;
+    
+  }
+
+  
+}
+
+@media (max-width: 950px) {
+  .container {
+    
+    width: 100%;
+    padding: 0 21px;
+    
+  }
+
+  
+}
+

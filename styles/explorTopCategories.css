@@ -24,3 +24,23 @@
     }
   }
 }
+
+
+
+@media (max-width: 1200px) {
+  .explorTopCategories{
+    padding: 0 158px;
+  }
+}
+
+@media (max-width: 905px) {
+  .explorTopCategories{
+  padding: 0 100px;
+  }
+}
+
+@media (max-width: 486px) {
+  .explorTopCategories{
+  padding: 0 40px;
+  }
+}

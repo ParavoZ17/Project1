@@ -5,6 +5,7 @@
   padding-top: 98px;
   padding-bottom: 98px;
   line-height: 24px;
+ 
   h1 {
     font-size: 40px;
     line-height: 52px;
@@ -28,3 +29,50 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+
+ .hero {
+  gap: 20px;
+  padding: 60px 50px;
+  img{
+    width: 400px;
+  };
+ }
+  }
+
+  @media (max-width: 950px) {
+
+ .hero {
+  flex-direction: column;
+   .hero_container{
+    width: 80%;
+   }
+  
+ }
+  }
+
+  @media (max-width: 750px) {
+   .hero {
+    padding: 30px 14px 0px 14px;
+    .hero_container{
+    h1{
+      font-size: 25px;
+    line-height: 30px;
+    }
+    p{
+
+      font-size: 12px;
+      line-height: 24px;
+    }
+    a{
+      width: 90px;
+      font-size: 12px;
+      line-height: 24px;
+      padding: 6px 10px 6px 10px;
+    }}
+  img{width: 220px;}
+    
+   }
+ }
+

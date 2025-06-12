@@ -25,6 +25,7 @@
     margin-bottom: 12px;
   }
   li {
+    flex: 1;
     width: calc((100%-64px) / 3);
   }
   li p {
@@ -36,6 +37,41 @@
   }
 }
 
-.storyList li {
-  flex: 1;
+
+
+
+@media (max-width: 950px){
+.storyList {
+  gap:10px;
+  h3{
+    font-size: 12px;
+  }
+  p {
+font-size: 10px;
+  }
+  button{
+    font-size: 10px;
+  }
+}
+}
+
+
+@media (max-width: 550px){
+  .lastP{
+    display: none;
+  }
+.storyList {
+  gap:15px;
+  flex-direction: column;
+  margin-bottom: 40px;
+  h3{
+    font-size: 12px;
+  }
+  p {
+font-size: 10px;
+  }
+  button{
+    font-size: 10px;
+  }
+}
 }

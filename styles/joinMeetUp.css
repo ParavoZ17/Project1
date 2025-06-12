@@ -22,3 +22,64 @@
     border-radius: 8px;
   }
 }
+
+
+
+@media (max-width: 750px) {
+  .joinMeetUp_section {
+    display: grid;
+    grid-template-areas:
+      "title"
+      "image"
+      "text"
+      "button";
+    gap: 16px;
+    
+  }
+
+  .joinMeetUp_container {
+    display: contents; 
+  }
+
+  .joinMeetUp_container h2 {
+    grid-area: title;
+  }
+
+  .joinMeetUp_section img {
+    grid-area: image;
+    width: 80%;
+    justify-self: center;
+  }
+
+  .joinMeetUp_container p {
+    grid-area: text;
+    margin-bottom: 10px;
+  }
+
+  .joinMeetUp_container a {
+    grid-area: button;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 600px) {
+   .joinMeetUp_section{
+    margin-bottom: 0;
+  h2{
+    font-size: 20px;
+  }
+  p{
+    font-size: 12px;
+  }
+  a {
+    padding: 8px 24px 8px 24px;
+  }
+} 
+}
+
+@media (max-width: 393px) {
+  .sectionJoinMeetUp{
+    padding: 0;
+    
+  }
+}

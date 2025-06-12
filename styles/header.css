@@ -1,14 +1,19 @@
-.nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-}
+
 .navbar {
   padding: 11px 24px 11px 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+}
+
+.nav {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  
 }
 
 .navForm {
@@ -72,3 +77,36 @@
     background-color: #00798a;
   }
 }
+
+
+
+@media (max-width: 950px) {
+
+  .region {
+    display: none;
+  }
+
+  }
+
+@media (max-width: 750px) {
+    .navbar{
+    margin-bottom: 50px;
+  }
+  .navForm{
+    position: absolute;
+      top: 62px;
+      left: 50%;
+  transform: translateX(-50%);}
+
+  .event{
+    width: 100%;
+    min-width: 300px;
+  }
+  }
+
+  @media (max-width: 393px) {
+  .control-buttons {
+    font-size: 12px;
+  }
+
+  }

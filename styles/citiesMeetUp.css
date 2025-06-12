@@ -22,3 +22,40 @@
     }
   }
 }
+
+@media (max-width:1000px) {
+   .citiesMeetUp{
+    ul{
+      margin-bottom: 32px;
+    }
+}}
+
+@media (max-width: 530px) {
+ 
+  .citiesMeetUp{
+    h2{
+      font-size: 20px;
+    }
+    ul{
+      gap: 17px;
+      margin-bottom: 10px;
+      .lastCity{
+        display: none;
+      }
+      li{
+        width: 155px;
+        h3{
+          font-size: 12px;
+        }
+        p{
+          font-size: 10px;
+        }
+        img{
+         width: 100%;
+        }
+      }
+    }
+  }
+
+  
+}
