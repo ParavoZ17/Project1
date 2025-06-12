@@ -46,6 +46,7 @@ function createEventList(data) {
         <p class="eventDate">${event.date.toLocaleDateString()} ${event.date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</p>
         <h3>${event.title}</h3>
         <p class="eventCategory">${event.category} <span>(${event.distance} km)</span></p>
+        <p class="eventType2Page">${event.type}</p>
         ${attendeesHTML}
       </div>
     `;

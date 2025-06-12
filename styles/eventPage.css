@@ -101,7 +101,12 @@
   }
   .eventCategory {
     font-weight: 500;
-    margin-bottom: 40px;
+  }
+  .eventType2Page{
+    display: none;
+  }
+  .eventAttendees {
+    margin-top: 40px;
   }
 }
 
@@ -116,4 +121,55 @@
     aspect-ratio: 4 / 3;
     overflow: hidden;
   }
+}
+
+
+@media ( max-width: 1000px){
+.eventInNewYork{
+  flex-direction: column;
+  .filterBlock {
+  width: 100%;
+  }
+  .location {
+    margin-bottom: 20px;
+    .map{
+    
+     
+      margin: 0 auto;
+    }
+  }
+}
+
+}
+
+@media ( max-width: 750px){
+.eventInNewYork{
+   .filterBlock {
+    h2{
+      font-size: 25px;
+    }
+    .filterBlockParagrapth{
+      font-size: 20px;
+    }
+    .selectList{
+      font-size: 12px;
+    }
+    .eventType2Page{
+      display: block;
+    }
+    .eventDate, .eventCategory, .eventType2Page{
+      font-size: 8.5px;
+    }
+    h3{
+      font-size: 10px;
+    }
+  }
+  .eventAttendees{
+    display: none;
+  }
+  .location {
+   display: none;
+  }
+}
+
 }
